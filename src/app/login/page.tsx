@@ -43,7 +43,7 @@ const LoginPage = () => {
     return (
         <div className="flex items-center justify-center min-h-screen bg-gray-100 flex-col">
             <img src="/WillinnLogo.svg" alt="Logo" className="mx-auto mb-4" />
-            
+
             {/* Formulario de inicio de sesión */}
             <form onSubmit={handleLogin} className="bg-white p-6 rounded shadow-md w-96 flex flex-col space-y-4">
                 <h2 className="text-2xl font-semibold mb-4 text-center text-black">Inicia sesión</h2>
@@ -79,7 +79,7 @@ const LoginPage = () => {
                     <button
                         type="button"
                         onClick={() => setShowPassword(!showPassword)}
-                        className="absolute right-2 top-1/2 transform -translate-y-1/2 text-gray-600"
+                        className="absolute right-2 top-2/3 transform -translate-y-1/2 text-gray-600"
                     >
                         {showPassword ? (
                             <img src="/eye.svg" alt="ocultar" />
@@ -88,6 +88,7 @@ const LoginPage = () => {
                         )}
                     </button>
                 </div>
+
 
                 {/* Botón de inicio de sesión */}
                 <button

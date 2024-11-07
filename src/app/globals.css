@@ -25,3 +25,19 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+
+/* Estilos personalizados para la barra de desplazamiento */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  background-color: #f1f1f1; /* Color de fondo de la barra de desplazamiento */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgba(247, 39, 147, 1); /* Color del pulgar de la barra */
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(200, 29, 120, 1); /* Color cuando se hace hover */
+}
