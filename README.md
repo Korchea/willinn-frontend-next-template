@@ -50,7 +50,7 @@ Este proyecto es una aplicación de gestión de usuarios creada con **Next.js**,
 
 ### Configuración de API Backend
 
-Para conectar la aplicación frontend con el backend:
+Para conectar la aplicación frontend con el backend yo utilice este `https://github.com/Korchea/Willinn-backend-api-template` ejecutandolo en local:
 
 1. Asegúrate de que tu backend esté en ejecución y accesible en la URL `https://localhost:44369/api/Users`.
 2. La aplicación hará solicitudes de autenticación y manejo de usuarios a esta URL.
@@ -108,3 +108,7 @@ La aplicación interactúa con una API REST que permite:
 - **PUT /api/Users/{id}**: Editar la información de un usuario.
 - **DELETE /api/Users/{id}**: Eliminar un usuario.
 
+## Autor
+
+Template: Rodrigo Mato - [GitHub](https://github.com/RodrigoMato00)
+App: Guillermo Vega - [GitHub](https://github.com/Korchea)
