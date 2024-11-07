@@ -35,12 +35,12 @@ Este proyecto es una aplicación de gestión de usuarios creada con **Next.js**,
 
 1. Clona el repositorio en tu máquina local:
    ```bash
-   git clone https://github.com/tu-usuario/nombre-del-repositorio.git
+   git clone https://github.com/Korchea/willinn-frontend-next-template.git
    ```
 
 2. Navega a la carpeta del proyecto:
    ```bash
-   cd nombre-del-repositorio
+   cd willinn-frontend-next-template
    ```
 
 3. Instala las dependencias:
@@ -50,7 +50,7 @@ Este proyecto es una aplicación de gestión de usuarios creada con **Next.js**,
 
 ### Configuración de API Backend
 
-Para conectar la aplicación frontend con el backend yo utilice este `https://github.com/Korchea/Willinn-backend-api-template` ejecutandolo en local:
+Para conectar la aplicación frontend con el backend yo utilice `https://github.com/Korchea/Willinn-backend-api-template` ejecutandolo en local:
 
 1. Asegúrate de que tu backend esté en ejecución y accesible en la URL `https://localhost:44369/api/Users`.
 2. La aplicación hará solicitudes de autenticación y manejo de usuarios a esta URL.
@@ -84,12 +84,10 @@ npm start
 ```plaintext
 ├── public                 # Archivos públicos como imágenes y fuentes
 │   └── WillinnLogo.svg    # Logo de la aplicación
-├── src
-│   ├── app
-│   │   ├── login          # Página de inicio de sesión
-│   │   ├── dashboard      # Página del dashboard con funcionalidades CRUD
-│   │   └── page.tsx       # Página inicial con redirección al login
-│   └── components         # Componentes reutilizables de la UI
+├── src/app
+│       ├── login          # Página de inicio de sesión
+│       ├── dashboard      # Página del dashboard con funcionalidades CRUD
+│       └── page.tsx       # Página inicial con redirección al login
 ├── .dockerignore
 ├── .gitignore
 ├── next.config.js         # Configuración de Next.js
