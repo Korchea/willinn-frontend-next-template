@@ -1,4 +1,3 @@
-
 # Aplicación de Gestión de Usuarios
 
 Este proyecto es una aplicación de gestión de usuarios creada con **Next.js**, **React**, y **TypeScript**. La aplicación permite iniciar sesión y acceder a un panel de administración donde se pueden agregar, editar, buscar y eliminar usuarios de forma interactiva y rápida. La aplicación también está diseñada para integrarse con un backend que proporciona una API REST para la autenticación y el manejo de usuarios.
@@ -77,6 +76,12 @@ Luego puedes iniciar el servidor de producción:
 
 ```bash
 npm start
+```
+
+Si deseas usar Docker puedes utilizar en el root del repo el comando:
+
+```bash
+docker-compose up --build
 ```
 
 ## Estructura de Carpetas
