@@ -113,5 +113,5 @@ La aplicación interactúa con una API REST que permite:
 
 ## Autor
 
-Template: Rodrigo Mato - [GitHub](https://github.com/RodrigoMato00)
-App: Guillermo Vega - [GitHub](https://github.com/Korchea)
+- Template: Rodrigo Mato - [GitHub](https://github.com/RodrigoMato00)
+- App: Guillermo Vega - [GitHub](https://github.com/Korchea)
