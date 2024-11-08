@@ -1,4 +1,4 @@
-# Aplicación de Gestión de Usuarios
+# Prueba Tecnica Willinn Frontend Next.js React Typescript
 
 Este proyecto es una aplicación de gestión de usuarios creada con **Next.js**, **React**, y **TypeScript**. La aplicación permite iniciar sesión y acceder a un panel de administración donde se pueden agregar, editar, buscar y eliminar usuarios de forma interactiva y rápida. La aplicación también está diseñada para integrarse con un backend que proporciona una API REST para la autenticación y el manejo de usuarios.
 
